@@ -4,10 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Краб — блог о самом интересном</title>
+    <meta name="description" content="Учебный проект для практики веб-программирования">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Мы молодцы!</h1>
-    <p>А именно, Захар и Никита</p>
+    <header class="header">
+        <a href="/" class="header__item logo">
+            <img src="images/logo.svg" alt="Краб" class="logo__img">
+        </a>
+        <div class="container header__item header__center">
+            <form class="search-form">
+                <input class="search-form__input" type="text" placeholder="Поиск">
+            </form>
+            <button class="button-create">+ Создать</button>
+        </div>
+        <button class="header__item button-signin">Войти</button>
+    </header>
 </body>
 </html>
